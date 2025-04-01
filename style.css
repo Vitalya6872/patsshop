@@ -33,8 +33,10 @@ main p {
     font-size: 30px;
 }
 
-main {
-    text-align: center;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -46,4 +48,8 @@ footer p {
     background-color: white;
     color: black;
     padding: 5px;
+}
+
+ul {
+    font-size: 30px;
 }
